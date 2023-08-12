@@ -22,12 +22,3 @@
     left: 15px;
     bottom: 15px;
 }
-.nav__notification__ellipsis{
-    background-color: tomato;
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;
-    position:absolute;
-    left: 27px;
-    bottom: 27px;
-}

@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 
-.status-bar-left:first-child span{   
+.status-bar-left span{   
    margin-right : 2px;
    font-weight: 650;
 } 
