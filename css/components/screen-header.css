@@ -15,6 +15,15 @@
 .screen-header__icons-cog{
     position: relative;    
 }
-.screen-header__icons-cog span{
-    
+@keyframes rolling-cog{
+    0%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
+.screen-header__icons-cog i{
+   animation: rolling-cog  1s linear infinite;
+   
 }

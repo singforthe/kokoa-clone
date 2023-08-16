@@ -1,8 +1,8 @@
 .recommended-friends{
     border-bottom: var(--main-border);
     border-top: var(--main-border);
-    padding: 20px 0px;
-    margin:20px 0px;
+    padding: 10px 0px;
+    margin:10px 0px;
 }
 .recommended-friends__title{
     font-size: 15px;
@@ -83,8 +83,31 @@
     bottom: 10px;
     right: 10px;
     font-size: 12px;
-
 }
 .open-post__heart-count span{
     margin-left: 5px;
+}
+
+@keyframes heartBeat {
+    0%{
+        transform: none;
+    }
+    25%{
+        transform: scaleX(0.9);
+    }
+    50%{
+        transform: scale(1);
+        color: red;
+    }
+    75%{
+        transform: scale(1.6);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.open-post__heart-count i{
+    animation: heartBeat 1.3s linear infinite;
+    will-change: transform;
+
 }
