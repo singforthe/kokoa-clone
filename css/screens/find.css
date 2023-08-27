@@ -33,6 +33,7 @@
   margin-bottom: 5px;
 }
 .open-post__hashtags {
+  margin-top: 5px;
   text-transform: uppercase;
   opacity: 0.6;
 }
