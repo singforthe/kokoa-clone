@@ -4,13 +4,16 @@
   align-items: flex-end;
 }
 .more-suggestions {
-  margin-top: 50px;
+  margin-top: 20px;
   border-top: var(--main-border);
   padding-top: 40px;
 }
 .more-suggestions__title {
+  margin-left: 2px;
+  opacity: 0.5;
   margin-bottom: 30px;
   font-weight: 600;
+  font-size: 15px;
 }
 .more-suggestions__icons {
   display: flex;
